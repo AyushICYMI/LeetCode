@@ -36,6 +36,24 @@ If a number passes the feasibility check, add it to the result list.
 
 ---
 
+## Time and Space Complexity
+
+### Time Complexity:
+- Creating the frequency map of the input digits: **O(N)**, where N is the size of the input array.
+- Iterating through 450 even numbers and checking feasibility: **450 × O(1)** = **O(1)** overall.
+- Hence, total time complexity is **O(N)**.
+
+### Space Complexity:
+- Frequency maps store at most 10 digit counts → **O(1)**.
+- The result list can have at most 450 elements → **O(1)**.
+- So, the total space complexity is **O(1)**.
+
+**Overall:**
+- **Time:** O(N)  
+- **Space:** O(1)
+
+---
+
 ## C++ Code
 
 ```cpp
